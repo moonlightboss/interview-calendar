@@ -34,7 +34,6 @@ export const Button = styled.button`
 export const DatesRow = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 740px;
   padding: 10px;
 `;
 
