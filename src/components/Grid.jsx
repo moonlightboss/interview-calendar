@@ -4,9 +4,8 @@ import styled from 'styled-components';
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  margin-top: 20px;
   padding:10px;
-  column-gap: 82px;
+  column-gap: 80px;
 `;
 
 const GridItem = styled.div`

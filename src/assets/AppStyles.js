@@ -8,7 +8,22 @@ export const CalendarWrapper = styled.div`
   justify-content: center;
 `;
 
+export const CalendarContainerWrapper = styled.div`
+  display: flex;
+  align-items: flex-start; /* Выравнивание по верхней границе */
+`;
+
+export const TimeColumn = styled.div`
+  width: 60px; /* Ширина колонки с временем */
+  padding-right: 20px; /* Отступ справа */
+`;
+
 export const CalendarContainer = styled.div`
-  max-width: 740px;
   width: 100%;
+  max-width: 740px;
+`;
+export const TimeSlot = styled.div`
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
 `;
